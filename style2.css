@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Single Day", cursive;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("./Group\ 6.jpg") center / cover; 
+    height: 100vh;
+    padding: 0 100px;
+    color: white;
+}
+
+img {
+    height: 600px;
+}
+
+#box{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 100px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    padding-right: 150px;
+}
+
+small{
+    margin: 20px 0;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: rgba(255, 2555, 255,0);
+    margin-bottom: 30px;
+    padding: 10px;
+    outline: none;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #46b6f7;
+    cursor: pointer;
+    border-radius: 1 0px;
+}
+
+button:active {
+    background-color: white;
+    color: #46b6f7;
+}
